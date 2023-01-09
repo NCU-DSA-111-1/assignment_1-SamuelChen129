@@ -33,7 +33,7 @@ There are two main part of this program:
 ### Neural Network 
 The neural network is using _Forward propagation_ and _Back-propagation_ techniques.  
 First,the <font color=orange>forward propagation</font> means propagating the training input data through the network like the picture below. 
-![GITHUB](nn.png)
+![image](https://github.com/NCU-DSA-111-1/assignment_1-SamuelChen129/blob/main/nn.PNG)
 There are a hidden layer and a output layer in this network.   
 The hidden layer has two nodes,the output layer has one node.This means that there are two weight values and two bias values in the hidden layer and one weight value and one bias value in the output layer.   
 The output value of the network is calculated by the values below,
