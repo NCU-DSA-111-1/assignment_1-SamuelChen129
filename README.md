@@ -64,7 +64,7 @@ for (int j=0; j<numOutputs; j++) {
 ```
 Next,the <font color=orange>Back-propagation</font> is to adjust the weights and bias according to the loss function.  
 Just like the picture below,   
-![GITHUB](nn2.png)
+![image](https://github.com/NCU-DSA-111-1/assignment_1-SamuelChen129/blob/main/nn2.PNG)
 the loss function will send out the loss,which is the difference between the actual output (from the forward propagation) and the desired output.  
 We can use the change in the losses from the output and the last output,which is the so-called derivative of loss.  
 By the derivative of loss,we can know we should increase or decrease how much in the weights and bias values.
